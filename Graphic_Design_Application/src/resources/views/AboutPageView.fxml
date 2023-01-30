@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="219.0" prefWidth="371.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="application.controllers.AboutPageController">
+   <children>
+      <HBox alignment="CENTER" layoutX="133.0" layoutY="104.0" spacing="10.0" />
+      <Label layoutX="66.0" layoutY="41.0" prefHeight="39.0" prefWidth="242.0" text="Created by Michael Balkos - s3718037 " wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="149.0" layoutY="81.0" prefHeight="30.0" prefWidth="75.0" text="Version 27" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="ok_BTN" layoutX="138.0" layoutY="142.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="98.0" text="Ok">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

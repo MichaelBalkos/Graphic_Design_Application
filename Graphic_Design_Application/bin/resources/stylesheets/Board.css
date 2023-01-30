@@ -1,0 +1,15 @@
+
+#newUserLink_HL {
+    -fx-border-color: transparent;
+    -fx-padding: 4 0 4 0;
+}
+
+#splitPane_P *.split-pane-divider {
+    -fx-padding: 0 1 0 1;
+	-fx-cursor: default;
+}
+
+#text {
+	-fx-border-width: 5px;
+    -fx-border-color: lime;
+}
